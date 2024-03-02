@@ -1,0 +1,58 @@
+
+@media (min-width: 767px){
+  li {
+    width:150px;
+    height:80px;
+  }
+
+  header a {
+    font-size:24px;
+    line-height: 3;
+  }
+
+  .title {
+    font-size:120px;
+  }
+
+  .main-header h2 br{
+    display: block;
+  }
+
+.main-world {
+  z-index:1;
+  padding-top: 0;
+  margin: 0;
+  position: relative;
+}
+
+
+  .main-header h2 {
+    position: absolute;
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-size: 120px;
+    position: relative;
+  } 
+
+  .main-world {
+    position: absolute;
+    top: 1100px;
+    z-index: -4;
+  }
+
+  .location h2{
+    font-size: 120px;
+  }
+
+
+  .map{
+    width:70%;
+  } 
+}
+
+@media(min-width:960px){
+
+  .items{
+    width:calc(30% - 5px);
+  }
+}
